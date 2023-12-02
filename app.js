@@ -7,4 +7,6 @@ const firstName = 'Георгий'
 console.log(firstName);
 
 // firstName = 'Иван'
-// console.log(firstName);
+// console.log(firstName)
+
+const myFirstCommit = '';
