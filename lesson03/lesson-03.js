@@ -13,3 +13,5 @@ let percentage = 10
 let fullPrice = 100000
 let responsive = true
 
+
+console.log(titleProject);
