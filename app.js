@@ -1,32 +1,12 @@
-// let x = 11;
+'use strict'
 
-// if (x > 10) {
-//     console.log('Условие верно');
-// } else {
-//     console.log('Условие не верно');
-// }
+let name = 'George'
 
+function foo() {
+    name = 'Arsen'
+    console.log('Hi ', name);
+}
 
-
-// let a = 5;
-// let b = '10'
-// let res = a + +b
-// console.log(a.toString());
-
-// console.log(res);
-
-// console.log(typeof a);
-// console.log(typeof b);
-
-// console.log(a+b);
-
-// alert('Привет')
-
-let age = +prompt('Укажите Ваш возраст') // 15 = 25
-let a = 10
-let res = age + a
-
-console.log(res);
-
-
+console.log('Hi ', name);
+foo()
 
