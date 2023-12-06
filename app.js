@@ -1,12 +1,27 @@
 'use strict'
 
-let name = 'George'
 
-function foo() {
-    name = 'Arsen'
-    console.log('Hi ', name);
+
+
+function counter() {
+    let a = 0;
+
+    return function() {
+        return a++
+    }
 }
 
-console.log('Hi ', name);
-foo()
+const resCounter = counter()
 
+console.log(resCounter());
+console.log(resCounter());
+console.log(resCounter());
+console.log(resCounter());
+console.log(resCounter());
+console.log(resCounter());
+console.log(resCounter());
+console.log(resCounter());
+console.log(resCounter());
+console.log(resCounter());
+console.log(resCounter());
+console.log(resCounter());
