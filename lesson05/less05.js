@@ -74,6 +74,8 @@ servicePercentPrice = getAllServicePrices();
 
 
 
+
+
 // Предоставление скидки
 
 if(fullPrice > 50000) {
